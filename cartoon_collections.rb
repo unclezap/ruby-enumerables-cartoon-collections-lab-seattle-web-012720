@@ -16,9 +16,7 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.any? do |word|
-    word > 4
-  end
+  calls.any? {|word| word > 4}
   
 end
 
